@@ -47,8 +47,9 @@ body {
 	float: left;
 	margin-right: 16px;
 }
-#nav .menu a:last-child{
+#nav .menu li:last-child{
 	margin-left: 4px;
+	margin-right: 86px;
 }
 #nav .menu li a {
 	display: block;
@@ -64,7 +65,7 @@ body {
 }
 /* Social buttons */
 .nav_social {
-	float: right;
+	
 	margin-right: 12px;
 	margin-top: -11px;
 }
@@ -92,7 +93,6 @@ body {
 	background-image: url(../images/twitter.png);
 }
 .nav_social .social:first-child {
-	margin-left: 71px;
 }
 .nav_social .social li:last-child {
 	margin-right: 0;
@@ -101,24 +101,89 @@ body {
 #portfolio {
 	padding: 60px 330px 100px;
 	background-color: #65ba99;
-	
 }
 #portfolio h1 {
 	font-size: 48px;
 	text-align: center;
 }
 #portfolio p {
-	margin-top: 5px;
+	margin-top: 3px;
 	font-size: 28px;
 	text-align: center;
-	padding: 0;
 }
 /* Quote */
 #quote {
-	height: 300px;
+	padding: 105px 95px;
+	height: 272px;
 	background-image: url(../images/quote.jpg);
 }
-#quote p {
+#quote-wrapper {
+	margin: 0 auto;
+	padding-left: 70px;
+	padding-right: 70px;
+	width: 940px;
+}
+#quote-text {
+	display: inline-block;
+	margin-left: 115px;
 	font-size: 28px;
 	text-align: center;
 }
+.kavichka-1 {
+	margin-left: 60px;
+	width: 27px;
+	height: 21px;
+	background-image: url(../images/pizda.png);
+}
+.kavichka-2 {
+	float: right;
+	margin-top: 47px;
+	margin-right: 126px;
+	width: 27px;
+	height: 21px;
+	background-image: url(../images/pizda2.png);
+}
+#author {
+	float: right;
+	margin-top: 39px;
+	margin-right: -8px;
+	font-size: 24px;
+	text-align: right;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
