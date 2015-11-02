@@ -1,0 +1,124 @@
+* {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+@font-face { font-family: BebasNeue; src: url(../fonts/BebasNeue.otf); }
+body {
+	color: #fff;
+}
+#wrapper {
+	font-family: 'BebasNeue', 'Arial';
+	width: 100%;
+	max-width: 1600px;
+	min-width: 940px;
+	margin: 0 auto;
+	padding: 0;
+}
+/* Header */
+#header {
+	padding: 126px 0 0 385px;
+	height: 500px;
+	font-size: 90px;
+	background-image: url(../images/header.jpg);
+	
+}
+#header p {
+	line-height: 0.74;
+}
+#header p:nth-child(4) {
+	font-size: 36px;
+}
+/* Navigation */
+#nav {
+	padding: 26px 0 0 356px;
+	height: 100px;
+	background-color: #252222;
+}
+#nav span {
+	float: left;
+	font-size: 48px;
+}
+#nav .menu {
+	margin: 15px 0 0 435px;
+	font-size: 18px;
+}
+#nav .menu li {
+	float: left;
+	margin-right: 16px;
+}
+#nav .menu a:last-child{
+	margin-left: 4px;
+}
+#nav .menu li a {
+	display: block;
+	color: #fff;
+	text-decoration: none;
+	padding: 0 4px 15px 4px;
+}
+#nav .menu li:hover {
+	border-bottom: 1px solid #65ba99;
+}
+#nav .menu li a:hover {
+	color: #65ba99;
+}
+/* Social buttons */
+.nav_social {
+	float: right;
+	margin-right: 12px;
+	margin-top: -11px;
+}
+.social  li{
+	display: inline-block;
+	margin-right: 13px;
+	height: 35px;
+	width: 35px;
+}
+.social li a { 
+	display: block;
+	width: inherit;
+	height: inherit;
+}
+.social li:first-child {
+	background-image: url(../images/in.png);
+}
+.social li:nth-child(2) {
+	background-image: url(../images/f.png);
+}
+.social li:nth-child(3){
+	background-image: url(../images/nlo.png);
+}
+.social li:last-child {
+	background-image: url(../images/twitter.png);
+}
+.nav_social .social:first-child {
+	margin-left: 71px;
+}
+.nav_social .social li:last-child {
+	margin-right: 0;
+}
+/* Portfolio */
+#portfolio {
+	padding: 60px 330px 100px;
+	background-color: #65ba99;
+	
+}
+#portfolio h1 {
+	font-size: 48px;
+	text-align: center;
+}
+#portfolio p {
+	margin-top: 5px;
+	font-size: 28px;
+	text-align: center;
+	padding: 0;
+}
+/* Quote */
+#quote {
+	height: 300px;
+	background-image: url(../images/quote.jpg);
+}
+#quote p {
+	font-size: 28px;
+	text-align: center;
+}
