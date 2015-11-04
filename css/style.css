@@ -357,4 +357,46 @@
 #text p:nth-child(2) {
 	margin-top: 16px;
 }
-
+/* Bottom */
+#contact {
+	height: 530px;
+	background-image: url(../images/footer.jpg);
+	background-color: #59a386;
+	padding: 1px;
+}
+#p-contact {
+	margin: 58px 0 68px 0;
+	font-size: 48px;
+	text-align: center;
+}
+#number {
+	margin-bottom: 24px;
+	text-align: center;
+	color: #ffffff;
+	font-size: 48px;
+}
+#e-mail {
+	color: #ffffff;
+	font-size: 60px;
+	margin: 0 auto;
+	width: 703px;
+	height: 102px;
+	border: 5px solid #ffffff;
+	padding: 23px 125px 25px 127px;
+	letter-spacing: 4px;
+	margin-bottom: 27px;
+}
+#street {
+	font-size: 30px;
+	color: #ffffff;
+	margin-bottom: 111px;
+	line-height: 18px;
+	text-align: center;
+}
+#copyright {
+	color: #ffffff;
+	text-align: center;
+	font-size: 14px;
+	line-height: 18px;
+	letter-spacing: 3px;
+}
