@@ -295,7 +295,7 @@ a {
 }
 #news-left, #news-right {
 	float: left;
-	width: 50%;
+	max-width: 50%;
 }
 #date {
 	margin-bottom: 24px;
@@ -311,9 +311,8 @@ a {
 	color: #fff;
 }
 #tag-left {
-	position: relative;
-	top: 3px;
-	left: 35%;
+	float: right;
+	margin-right: 5%;
 	padding-left: 18px;
 	font-size: 12px;
 	font-style: italic;
